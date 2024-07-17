@@ -109,8 +109,35 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
+    font-weight: 800;
     padding: 0.7rem 1.2rem;
+    color: white;
     background-color: rgba(255, 84, 0, 1);
     border: 1px solid rgba(255, 84, 0, 1);
     border-radius: 8px;
   }
+  /* popular section styles */
+  .popular-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  .text-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: space-between;
+  }
+  .text-content p,
+  .text-content li{
+    text-align: left;
+    font-size: 1rem;
+    line-height: 24px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+  }
+  .text-content p,
+  .text-content li,
+  .text-content h3{
+    text-align: left;
+}
